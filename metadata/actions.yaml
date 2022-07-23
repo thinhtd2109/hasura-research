@@ -1,0 +1,12 @@
+actions:
+    - name: test
+      definition:
+        kind: synchronous
+        handler: http://localhost:3000/test
+custom_types:
+    enums: []
+    input_objects:
+        - name: SampleInput
+    objects:
+        - name: SampleOutput
+    scalars: []
